@@ -5277,7 +5277,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 }
 
 .coming-soon-page {
-    background: url(../images/grc/IMG_3757.JPG);
+    background: url(../images/grc/IMG_3762.JPG);
     display: table;
     width: 100%;
     height: 100vh;
@@ -5290,7 +5290,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 }
 
 .coming-soon-page .cs-wrapper {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 60px 20px 60px 0px;
     position: relative;
     padding-left: 15%
@@ -5301,7 +5301,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
     content: '';
     right: 0;
     top: 0;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
     height: 100%;
     width: 200%;
     overflow: hidden
