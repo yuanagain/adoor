@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 // set up time coming soon
-var target_date = new Date("April 25, 2016").getTime();
+var target_date = new Date("October 27, 2018").getTime();
  
 // variables for time units
 var days, hours, minutes, seconds;

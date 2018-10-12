@@ -5277,7 +5277,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 }
 
 .coming-soon-page {
-    background: url(../images/soon.png);
+    background: url(../images/grc/IMG_3757.JPG);
     display: table;
     width: 100%;
     height: 100vh;
@@ -5317,7 +5317,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 
 .cs-wrapper .coming-soon-wrapper .coming-soon-title {
     font-size: 2.571em;
-    color: #3498db;
+    color: #563556;
     padding-bottom: 30px
 }
 
@@ -5389,7 +5389,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
     padding: 60px 0px;
     width: 100px;
     height: 140px;
-    background: #3498db;
+    background: #563556;
     color: #f8f8f8;
     position: relative;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
