@@ -12,7 +12,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
-    color: #5e6d77;
+    color: #664966;
     background-color: #fff
 }
 
@@ -26,7 +26,7 @@ a {
 
 a:hover, a:active, a:focus {
     text-decoration: none;
-    color: #2aacff
+    color: #563556
 }
 
 h1, h2, h3, h4 {
@@ -128,11 +128,11 @@ h5 {
 }
 
 .sunhouse-item .note.for-sale {
-    background-color: #2aacff
+    background-color: #563556
 }
 
 .sunhouse-item .note.for-rent {
-    background-color: #20ceb3
+    background-color: #887188
 }
 
 .sunhouse-item .note.for-day {
@@ -160,7 +160,7 @@ h5 {
 }
 
 .sunhouse-item .about-house .title {
-    color: #34495e;
+    color: #664966;
     font-size: 1.43em;
     font-weight: 700;
     text-transform: capitalize;
@@ -169,7 +169,7 @@ h5 {
 }
 
 .sunhouse-item .about-house .title:hover {
-    color: #2aacff
+    color: #563556
 }
 
 .sunhouse-item .about-house .text {
@@ -202,7 +202,7 @@ h5 {
 }
 
 .sunhouse-item .more-info-house .place-house:hover i, .sunhouse-item .more-info-house .place-house:hover p, .sunhouse-item .more-info-house .place-house:hover a {
-    color: #2aacff
+    color: #563556
 }
 
 .sunhouse-item .more-info-house .price {
@@ -210,7 +210,7 @@ h5 {
     vertical-align: middle;
     text-align: right;
     font-size: 1.714em;
-    color: #2aacff;
+    color: #563556;
     font-weight: 700;
     min-width: 120px
 }
@@ -379,7 +379,7 @@ h5 {
 }
 
 .banner-01 {
-    background-image: url(../images/libs/banner-2.jpg);
+    background-image: url(../images/grc/IMG_3731.JPG);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -387,7 +387,7 @@ h5 {
     background-repeat: repeat;
     width: 100%;
     position: relative;
-    background-color: #2aacff
+    background-color: #563556
 }
 
 .banner-02 {
@@ -403,7 +403,7 @@ h5 {
 }
 
 .banner-02.bg-overlay:before {
-    background-color: rgba(0, 0, 0, 0.4)
+    background-color: rgba(86,53,86, 0.4)
 }
 
 .banner-03 {
@@ -419,11 +419,11 @@ h5 {
 }
 
 .banner-03.bg-overlay:before {
-    background-color: rgba(0, 0, 0, 0.1)
+    background-color: rgba(86,53,86, 0.1)
 }
 
 .find-best-house {
-    background-image: url(../images/libs/banner-find-best-house.jpg);
+    background-image: url(../images/grc/IMG_3762.JPG);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -433,7 +433,7 @@ h5 {
 
 .contact-us {
     min-height: 650px;
-    background-image: url(../images/libs/banner-contact.jpg);
+    background-image: url(../images/grc/IMG_3709.JPG);
     background-size: cover;
     -webkit-background-size: cover;
     background-position: center;
@@ -467,7 +467,7 @@ header .socials .link {
 
 header .socials .link:hover {
     background-color: #f9fbfb;
-    color: #2aacff !important
+    color: #563556 !important
 }
 
 header .socials .link:last-child {
@@ -497,7 +497,7 @@ header .bg-white .header-main {
 }
 
 header .bg-white .header-main .main-menu {
-    color: #5e6d77
+    color: #664966
 }
 
 header .bg-white .socials .link {
@@ -548,15 +548,15 @@ header .bg-transparent .header-main .navigation .nav-links li.active .main-menu,
 
 header .bg-transparent .header-main.header-fixed {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #fff
+    background-color: #664966
 }
 
 header .bg-transparent .header-main.header-fixed .main-menu {
-    color: #5e6d77
+    color: #664966
 }
 
 header .bg-transparent .header-main.header-fixed .navigation .nav-links li.active .main-menu, header .bg-transparent .header-main.header-fixed .navigation .nav-links li:hover .main-menu {
-    color: #2aacff
+    color: #563556
 }
 
 header .bg-transparent .header-main.header-fixed .logo-black {
@@ -605,11 +605,11 @@ header .bg-transparent .dropdown-language li {
 }
 
 header .bg-transparent .dropdown-language li a {
-    color: #5e6d77
+    color: #664966
 }
 
 header .bg-transparent .dropdown-language li:hover a {
-    color: #34495e
+    color: #664966
 }
 
 .header-topbar {
@@ -626,7 +626,7 @@ header .bg-transparent .dropdown-language li:hover a {
 }
 
 .header-topbar a:hover, .header-topbar span:hover, .header-topbar p:hover {
-    color: #2aacff
+    color: #563556
 }
 
 .header-topbar .topbar-left {
@@ -660,7 +660,7 @@ header .bg-transparent .dropdown-language li:hover a {
 }
 
 .header-topbar .topbar-left > li:hover i, .header-topbar .topbar-left > li:hover span {
-    color: #2aacff
+    color: #563556
 }
 
 .dropdown-language {
@@ -691,7 +691,7 @@ header .bg-transparent .dropdown-language li:hover a {
 }
 
 .dropdown-language li:hover a {
-    color: #34495e
+    color: #664966
 }
 
 .header-main {
@@ -717,7 +717,7 @@ header .bg-transparent .dropdown-language li:hover a {
 }
 
 .header-main .navigation .nav-links li.active .main-menu, .header-main .navigation .nav-links li:hover .main-menu {
-    color: #2aacff
+    color: #563556
 }
 
 .header-main .navigation .nav-links .main-menu {
@@ -742,7 +742,7 @@ header .bg-transparent .dropdown-language li:hover a {
     -moz-border-radius: 0;
     border: none;
     padding: 0;
-    border-bottom: 2px solid #2aacff;
+    border-bottom: 2px solid #563556;
     transition: all 0.6s ease
 }
 
@@ -930,7 +930,7 @@ header .bg-transparent .dropdown-language li:hover a {
 }
 
 footer .bg-dark .footer-main {
-    background-color: #292f32;
+    background-color: #757575;
     color: #e5ecf1
 }
 
@@ -952,7 +952,7 @@ footer .bg-dark a, footer .bg-dark p, footer .bg-dark span, footer .bg-dark i {
 }
 
 footer .bg-dark a:hover {
-    color: #2aacff
+    color: #563556
 }
 
 footer .bg-dark .footer-logo-white {
@@ -985,7 +985,7 @@ footer .bg-transparent .footer-main {
 }
 
 footer .bg-transparent .title-widget {
-    color: #34495e;
+    color: #664966;
     border-bottom: none
 }
 
@@ -998,7 +998,7 @@ footer .bg-transparent a, footer .bg-transparent p, footer .bg-transparent span,
 }
 
 footer .bg-transparent a:hover {
-    color: #2aacff
+    color: #563556
 }
 
 footer .bg-transparent .socials a {
@@ -1006,8 +1006,8 @@ footer .bg-transparent .socials a {
 }
 
 footer .bg-transparent .socials a:hover {
-    background-color: #2aacff;
-    border-color: #2aacff
+    background-color: #563556;
+    border-color: #563556
 }
 
 footer .bg-transparent .socials a:hover i {
@@ -1051,7 +1051,7 @@ footer .bg-transparent .socials a:hover i {
 }
 
 .hyperlink .hyper-left .link:hover, .hyperlink .hyper-right .link:hover {
-    color: #2aacff
+    color: #563556
 }
 
 .hyperlink .hyper-left span {

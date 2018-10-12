@@ -3,7 +3,7 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    border: 2px solid #2aacff;
+    border: 2px solid #563556;
     background-color: transparent;
     width: 40px;
     height: 40px;
@@ -11,12 +11,12 @@
     text-align: center;
     font-size: 24px;
     z-index: 100;
-    color: #2aacff;
+    color: #563556;
     transition: all 0.5s ease
 }
 
 #back-top a:hover {
-    background-color: #2aacff;
+    background-color: #563556;
     color: #fff
 }
 
@@ -34,22 +34,22 @@
 }
 
 .btn.btn-blue {
-    background-color: #2aacff;
+    background-color: #563556;
     color: #fff
 }
 
 .btn.btn-blue:hover {
     background-color: #fff;
-    color: #2aacff
+    color: #563556
 }
 
 .btn.btn-white {
     background-color: #fff;
-    color: #3d4448
+    color: #563556
 }
 
 .btn.btn-white:hover {
-    background-color: #34495e;
+    background-color: #664966;
     color: #fff
 }
 
@@ -66,16 +66,16 @@
 
 .btn.btn-transparent.white:hover {
     background-color: #fff;
-    color: #2aacff
+    color: #563556
 }
 
 .btn.btn-transparent.blue {
-    color: #2aacff;
-    border-color: #2aacff
+    color: #563556;
+    border-color: #563556
 }
 
 .btn.btn-transparent.blue:hover {
-    background-color: #2aacff;
+    background-color: #563556;
     color: #fff
 }
 
@@ -119,7 +119,7 @@
 }
 
 .btn.btn-crystal:hover {
-    color: #2aacff
+    color: #563556
 }
 
 .btn.btn-crystal i {
@@ -141,7 +141,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(52, 73, 94, 0.8)
+    background-color: rgba(86,53,86, 0.7)
 }
 
 .sunhouse-title {
@@ -157,7 +157,7 @@
     font-size: 3.2em;
     position: relative;
     display: inline-block;
-    color: #2aacff
+    color: #563556
 }
 
 .sunhouse-title .icon-image .icon-title:before, .sunhouse-title .icon-image .icon-title:after {
@@ -166,7 +166,7 @@
     width: 45px;
     height: 2px;
     bottom: 1px;
-    background-color: #2aacff
+    background-color: #563556
 }
 
 .sunhouse-title .icon-image .icon-title:before {
@@ -191,7 +191,7 @@
 
 .sunhouse-title .main-title {
     font-size: 2.143em;
-    color: #3d4448;
+    color: #563556;
     font-weight: 900;
     margin: 0;
     margin-bottom: 10px;
@@ -236,7 +236,7 @@
     text-transform: uppercase;
     margin-bottom: 10px;
     margin-left: 1px;
-    color: #34495e;
+    color: #664966;
     font-weight: 400
 }
 
@@ -278,13 +278,13 @@
     width: 12px;
     height: 12px;
     top: -6px;
-    background-color: #2aacff
+    background-color: #563556
 }
 
 .search-form-group .nstSlider .bar {
     height: 2px;
     top: 0;
-    background-color: #3d4448
+    background-color: #563556
 }
 
 .search-form-group .leftLabel, .search-form-group .rightLabel {
@@ -429,8 +429,8 @@ textarea.contact-form {
 }
 
 .socials .link:hover {
-    background-color: #2aacff;
-    border-color: #2aacff;
+    background-color: #563556;
+    border-color: #563556;
     color: #fff
 }
 
@@ -464,7 +464,7 @@ textarea.contact-form {
 
 .sunhouse-widget .phone-number i, .sunhouse-widget .phone-number span {
     font-size: 1.57em;
-    color: #2aacff
+    color: #fff
 }
 
 .gallery-widget .gallery-list {
@@ -549,7 +549,7 @@ textarea.contact-form {
 }
 
 .support-forum .btn-email {
-    background-color: #2aacff;
+    background-color: #563556;
     line-height: 33px;
     text-align: center;
     padding: 0px 10px;
@@ -585,7 +585,7 @@ textarea.contact-form {
 }
 
 .recent-tweets .recent-tweets-item .text b {
-    color: #2aacff;
+    color: #563556;
     text-transform: uppercase;
     font-weight: 400
 }
@@ -595,7 +595,7 @@ textarea.contact-form {
     text-align: right;
     font-style: italic;
     font-size: 12px;
-    color: #2aacff
+    color: #563556
 }
 
 .banner-full-screen {
@@ -776,7 +776,7 @@ textarea.contact-form {
 .banner-04 {
     position: relative;
     width: 100%;
-    background-color: #2aacff;
+    background-color: #563556;
     display: table
 }
 
@@ -913,7 +913,7 @@ textarea.contact-form {
 }
 
 .banner-04 .banner-04-wrapper .btn.btn-white {
-    color: #2aacff
+    color: #563556
 }
 
 .banner-04 .banner-04-wrapper .btn.btn-white:hover {
@@ -989,7 +989,7 @@ textarea.contact-form {
 }
 
 .banner-06 .slick-dots li.slick-active button, .banner-06 .slick-dots li:hover button {
-    background-color: #2aacff
+    background-color: #563556
 }
 
 .banner-06 .wrapper-banner {
@@ -1103,13 +1103,13 @@ textarea.contact-form {
 
 .hi-there .title {
     margin: 0;
-    color: #3d4448;
+    color: #563556;
     font-size: 2.143em;
     line-height: 36px
 }
 
 .hi-there .title b {
-    color: #2aacff
+    color: #563556
 }
 
 .hi-there .content {
@@ -1146,7 +1146,7 @@ textarea.contact-form {
 }
 
 .group-logos {
-    background-color: #2aacff;
+    background-color: #563556;
     padding: 40px 0
 }
 
@@ -1197,7 +1197,7 @@ textarea.contact-form {
 
 .our-clients-said .our-clients-said-content .items .more-info .name {
     font-weight: 700;
-    color: #3d4448;
+    color: #563556;
     font-size: 1.071em
 }
 
@@ -1214,13 +1214,13 @@ textarea.contact-form {
 }
 
 .our-agent-item .our-agent-info .name {
-    color: #34495e;
+    color: #664966;
     text-transform: capitalize;
     font-size: 1.429em
 }
 
 .our-agent-item .our-agent-info .name:hover {
-    color: #2aacff
+    color: #563556
 }
 
 .our-agent-item .our-agent-info .job {
@@ -1235,7 +1235,7 @@ textarea.contact-form {
 }
 
 .our-agent-item .item-wrapper .our-agent-socials {
-    background-color: #2aacff;
+    background-color: #563556;
     padding: 20px 10px 5px 10px;
     position: absolute;
     width: 100%;
@@ -1251,7 +1251,7 @@ textarea.contact-form {
     text-align: center;
     color: #fff;
     border: 1px solid #fff;
-    background-color: #2aacff;
+    background-color: #563556;
     margin-right: 8px;
     margin-left: 8px;
     margin-bottom: 15px;
@@ -1322,7 +1322,7 @@ textarea.contact-form {
     left: 5%;
     bottom: 50px;
     max-width: 475px;
-    z-index: 2;
+    z-index: 4;
     width: 40%
 }
 
@@ -1353,7 +1353,7 @@ textarea.contact-form {
 .banner-sale-off .name-house .title {
     text-transform: uppercase;
     font-size: 2.143em;
-    color: #34495e;
+    color: #664966;
     margin: 0;
     margin-bottom: 5px;
     font-weight: 900
@@ -1373,7 +1373,7 @@ textarea.contact-form {
     width: 200px;
     text-align: right;
     color: #fff;
-    background-color: #2aacff;
+    background-color: #563556;
     padding: 50px 30px 30px 30px
 }
 
@@ -1405,7 +1405,7 @@ textarea.contact-form {
     content: '';
     width: 100%;
     height: 100%;
-    background-color: #2aacff;
+    background-color: #563556;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1419,14 +1419,14 @@ textarea.contact-form {
 
 .our-service-items .icon-wrapper .icon-our-service {
     font-size: 60px;
-    color: #2aacff;
+    color: #563556;
     position: relative;
     z-index: 2;
     transition: all 0.7s ease
 }
 
 .our-service-items .name {
-    color: #34495e;
+    color: #664966;
     font-size: 1.429em;
     margin-bottom: 15px;
     font-weight: 700
@@ -1440,7 +1440,7 @@ textarea.contact-form {
 
 .our-service-items .btn-readmore {
     text-transform: uppercase;
-    color: #2aacff;
+    color: #563556;
     font-weight: 700;
     position: absolute;
     left: 50%;
@@ -1484,7 +1484,7 @@ textarea.contact-form {
 }
 
 .search-properties {
-    background-color: #34495e;
+    background-color: #664966;
     position: relative;
     z-index: 2
 }
@@ -1563,7 +1563,7 @@ textarea.contact-form {
 }
 
 .search-propertie-filters {
-    background-color: #3e5266
+    background-color: #757575
 }
 
 .search-propertie-filters .container {
@@ -1604,7 +1604,7 @@ textarea.contact-form {
 
 .contact-us-wrapper .title {
     margin: 0;
-    color: #34495e;
+    color: #664966;
     font-weight: 900;
     text-transform: uppercase;
     font-size: 2.143em;
@@ -1616,7 +1616,7 @@ textarea.contact-form {
 }
 
 .new-letter-wrapper {
-    background-color: #2aacff;
+    background-color: #563556;
     color: #fff
 }
 
@@ -1654,14 +1654,14 @@ textarea.contact-form {
 }
 
 .info-list .info-icon {
-    color: #3d4448;
+    color: #563556;
     width: 30px;
     text-align: left;
     font-size: 1.143em
 }
 
 .company-statistics {
-    background-color: #2aacff;
+    background-color: #563556;
     color: #fff
 }
 
@@ -1726,7 +1726,7 @@ textarea.contact-form {
 }
 
 .about-house-section .about-house-banner .about-house-banner-wrapper {
-    background-color: #2aacff;
+    background-color: #563556;
     color: #fff;
     padding: 100px 70px;
     text-align: center
@@ -1811,7 +1811,7 @@ textarea.contact-form {
     font-size: 2.143em;
     font-weight: 900;
     text-transform: uppercase;
-    color: #34495e;
+    color: #664966;
     margin: 0;
     margin-bottom: 25px
 }
@@ -1938,7 +1938,7 @@ textarea.contact-form {
 .contact-info-item .icon {
     font-size: 3.5em;
     margin-bottom: 20px;
-    color: #2aacff
+    color: #563556
 }
 
 .contact-info-item .text {
@@ -1949,7 +1949,7 @@ textarea.contact-form {
     margin-bottom: 0;
     font-size: 1.43em;
     font-weight: 700;
-    color: #34495e;
+    color: #664966;
     margin-bottom: 8px
 }
 
@@ -2029,7 +2029,7 @@ textarea.contact-form {
 
 .agent-statistics .statistic-items .number {
     font-size: 2.5em;
-    color: #2aacff
+    color: #563556
 }
 
 .agent-statistics .statistic-items .name {
@@ -2081,11 +2081,11 @@ textarea.contact-form {
 }
 
 .agent-single-info-wrapper .agent-single-info.socials .link:hover i {
-    color: #2aacff
+    color: #563556
 }
 
 .agent-single-info-wrapper .agent-single-info.skype .text {
-    color: #2aacff
+    color: #563556
 }
 
 .agent-single-info-wrapper .agent-single-info:nth-child(2) {
@@ -2146,7 +2146,7 @@ textarea.contact-form {
 .banner-come-in .banner-come-in-wrapper .text {
     margin: 0;
     font-size: 3.4em;
-    color: #2aacff;
+    color: #563556;
     text-transform: capitalize;
     font-weight: 400
 }
@@ -2202,7 +2202,7 @@ textarea.contact-form {
 }
 
 .contact-fast .new-letter-content .new-letter-right form .btn:hover {
-    background-color: #34495e;
+    background-color: #664966;
     color: #fff
 }
 
@@ -2246,7 +2246,7 @@ textarea.contact-form {
 }
 
 .nav-infomation-wrapper .item .icon-info {
-    color: #2aacff;
+    color: #563556;
     font-size: 2.571em;
     padding-bottom: 10px;
     display: block
@@ -2261,7 +2261,7 @@ textarea.contact-form {
 
 .nav-infomation-wrapper .item .number-info {
     font-weight: 700;
-    color: #34495e;
+    color: #664966;
     font-size: 1.2em;
     display: block
 }
@@ -2329,7 +2329,7 @@ textarea.contact-form {
 }
 
 .near-attraction .near-attraction-list .items-left .icon-items {
-    color: #2aacff;
+    color: #563556;
     font-size: 2.6em
 }
 
@@ -2341,7 +2341,7 @@ textarea.contact-form {
     font-weight: 700;
     margin: 0;
     padding-bottom: 10px;
-    color: #34495e;
+    color: #664966;
     font-size: 1.3em
 }
 
@@ -2384,7 +2384,7 @@ textarea.contact-form {
 }
 
 .near-attraction .near-attraction-slider .slick-dots li.slick-active button, .near-attraction .near-attraction-slider .slick-dots li:hover button {
-    background-color: #2aacff
+    background-color: #563556
 }
 
 .near-attraction .near-attraction-slider .slick-arrow {
@@ -2517,7 +2517,7 @@ textarea.contact-form {
     padding: 0 0 10px 0;
     line-height: 1;
     border: none;
-    color: #34495e;
+    color: #664966;
     text-transform: capitalize;
     position: relative;
     cursor: pointer
@@ -2528,7 +2528,7 @@ textarea.contact-form {
     content: '';
     width: 0px;
     height: 2px;
-    background-color: #2aacff;
+    background-color: #563556;
     bottom: -2px;
     left: 0;
     transition: all 0.3s ease
@@ -2546,7 +2546,7 @@ textarea.contact-form {
 .picture-tabs li.active .text {
     border: none;
     line-height: 1;
-    color: #2aacff;
+    color: #563556;
     background-color: transparent
 }
 
@@ -2555,7 +2555,7 @@ textarea.contact-form {
     content: '';
     width: 100%;
     height: 2px;
-    background-color: #2aacff;
+    background-color: #563556;
     bottom: -2px;
     left: 0;
     transition: all 0.3s ease
@@ -2563,7 +2563,7 @@ textarea.contact-form {
 
 .picture-tabs li.active .text:focus, .picture-tabs li.active .text:hover {
     border: none;
-    color: #2aacff;
+    color: #563556;
     background-color: transparent
 }
 
@@ -2649,7 +2649,7 @@ textarea.contact-form {
 .banner-flip-list .banner-flip-item .banner-font .area {
     padding: 15px 30px;
     font-size: 1.6em;
-    background-color: #2aacff;
+    background-color: #563556;
     color: #fff;
     text-transform: capitalize;
     text-align: center;
@@ -2739,7 +2739,7 @@ textarea.contact-form {
 }
 
 .page-title.service.bg-overlay:before {
-    background-color: rgba(52, 73, 94, 0.2)
+    background-color: rgba(86,53,86, 0.2)
 }
 
 .page-title.gallery {
@@ -2855,7 +2855,7 @@ textarea.contact-form {
 }
 
 .page-title .breadcrumb li a:hover {
-    color: #2aacff
+    color: #563556
 }
 
 .page-title .breadcrumb li:last-child {
@@ -2910,7 +2910,7 @@ textarea.contact-form {
 }
 
 .underline {
-    color: #34495e;
+    color: #664966;
     font-weight: 900;
     text-transform: uppercase;
     font-size: 2.143em;
@@ -2925,7 +2925,7 @@ textarea.contact-form {
     content: '';
     width: 30px;
     height: 3px;
-    background-color: #2aacff;
+    background-color: #563556;
     display: block;
     margin-top: 15px
 }
@@ -2966,7 +2966,7 @@ textarea.contact-form {
 }
 
 .gallery-nav .is-checked {
-    background-color: #2aacff;
+    background-color: #563556;
     color: #fff;
     box-shadow: none
 }
@@ -2979,7 +2979,7 @@ textarea.contact-form {
 
 .group-title .title {
     font-weight: 700;
-    color: #2aacff;
+    color: #563556;
     font-size: 2.143em;
     text-transform: uppercase;
     margin-bottom: 30px
@@ -3035,7 +3035,7 @@ textarea.contact-form {
     width: 100%;
     height: 100%;
     text-align: center;
-    background-color: #2aacff;
+    background-color: #563556;
     opacity: 0;
     transition: all 0.5s ease
 }
@@ -3086,7 +3086,7 @@ textarea.contact-form {
 .sidebar .title-widget {
     font-weight: 900;
     font-size: 1.715em;
-    color: #34495e;
+    color: #664966;
     text-transform: capitalize;
     padding-bottom: 30px
 }
@@ -3131,11 +3131,11 @@ textarea.contact-form {
     font-size: 1.143em;
     font-weight: 700;
     text-transform: capitalize;
-    color: #34495e
+    color: #664966
 }
 
 .feature-widget .feature-item .feature-title:hover {
-    color: #2aacff
+    color: #563556
 }
 
 .feature-widget .feature-item:hover {
@@ -3177,7 +3177,7 @@ textarea.contact-form {
 }
 
 .feature-widget .info .price {
-    color: #2aacff;
+    color: #563556;
     position: relative;
     font-weight: 700
 }
@@ -3201,7 +3201,7 @@ textarea.contact-form {
 
 .archive-widget .bootstrap-datetimepicker-widget table td.active, .archive-widget .bootstrap-datetimepicker-widget table td.active:hover {
     pointer-events: none;
-    background-color: #2aacff;
+    background-color: #563556;
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0
@@ -3211,7 +3211,7 @@ textarea.contact-form {
     pointer-events: none;
     font-size: 18px;
     font-weight: 600;
-    color: #2aacff;
+    color: #563556;
     padding: 20px 0
 }
 
@@ -3257,7 +3257,7 @@ textarea.contact-form {
 }
 
 .popular-widget .popular-group:hover {
-    background-color: #2aacff
+    background-color: #563556
 }
 
 .popular-widget .popular-group:hover .tag-item {
@@ -3333,7 +3333,7 @@ textarea.contact-form {
 }
 
 .category-widget .category-group .cat-item:hover {
-    color: #2aacff
+    color: #563556
 }
 
 .category-widget .category-group .cat-item i {
@@ -3355,7 +3355,7 @@ textarea.contact-form {
 }
 
 .contact-agent-widget {
-    background-color: #2aacff;
+    background-color: #563556;
     color: #fff;
     padding: 30px 20px 10px
 }
@@ -3503,7 +3503,7 @@ textarea.contact-form {
 .property-view .property-nav {
     float: left;
     width: 100%;
-    background-color: #2aacff;
+    background-color: #563556;
     padding: 30px 0px;
     padding-right: 20px
 }
@@ -3520,7 +3520,7 @@ textarea.contact-form {
 }
 
 .property-view .property-nav .btn-list-grid .btn-list, .property-view .property-nav .btn-list-grid .btn-grid {
-    background-color: #2aacff;
+    background-color: #563556;
     width: 40px;
     height: 35px;
     transition: all 0.5s ease;
@@ -3683,7 +3683,7 @@ textarea.contact-form {
 }
 
 .nav-bar .detail-nav .nav-item:hover .icon {
-    color: #2aacff
+    color: #563556
 }
 
 .nav-bar .detail-nav .nav-item.active {
@@ -3693,7 +3693,7 @@ textarea.contact-form {
 }
 
 .nav-bar .detail-nav .nav-item.active .icon {
-    color: #2aacff
+    color: #563556
 }
 
 .property-detail {
@@ -3726,7 +3726,7 @@ textarea.contact-form {
 .property-detail .detail-wrapper .detail-content .title {
     font-size: 1.57em;
     font-weight: 900;
-    color: #34495e;
+    color: #664966;
     text-transform: capitalize;
     padding-left: 0px;
     margin-bottom: 30px
@@ -3800,7 +3800,7 @@ textarea.contact-form {
 
 .gallery-item .slick-prev:before, .gallery-item .slick-next:before {
     font-family: 'FontAwesome';
-    color: #34495e;
+    color: #664966;
     opacity: 1
 }
 
@@ -3858,7 +3858,7 @@ textarea.contact-form {
 }
 
 .agent-list .agent-item .agent-info a:hover {
-    color: #2aacff
+    color: #563556
 }
 
 .agent-list .agent-item .agent-info .col-1, .agent-list .agent-item .agent-info .col-2 {
@@ -3888,7 +3888,7 @@ textarea.contact-form {
 
 .agent-list .agent-item .agent-info .agent-name {
     text-transform: capitalize;
-    color: #34495e;
+    color: #664966;
     font-weight: 700;
     font-size: 1.43em
 }
@@ -3952,11 +3952,11 @@ textarea.contact-form {
     float: right;
     text-transform: uppercase;
     font-weight: 700;
-    color: #2aacff
+    color: #563556
 }
 
 .agent-list .agent-item .agent-info .more-detail:hover {
-    color: #34495e
+    color: #664966
 }
 
 .agencies-list .agent-item:nth-child(2) {
@@ -4065,13 +4065,13 @@ textarea.contact-form {
 }
 
 .blog .wrapper-content .about-house .btn-blue, .blog-detail .wrapper-content .about-house .btn-blue {
-    background-color: #34495e;
+    background-color: #664966;
     width: 125px;
     line-height: 2.5em
 }
 
 .blog .wrapper-content .about-house .btn-blue:hover, .blog-detail .wrapper-content .about-house .btn-blue:hover {
-    background-color: #2aacff;
+    background-color: #563556;
     color: #fff
 }
 
@@ -4113,7 +4113,7 @@ textarea.contact-form {
 }
 
 .blog .quote .main-quote, .blog-detail .quote .main-quote {
-    color: #34495e;
+    color: #664966;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5em;
@@ -4128,7 +4128,7 @@ textarea.contact-form {
 
 .blog .quote .sub-quote .author, .blog-detail .quote .sub-quote .author {
     font-weight: 700;
-    color: #2aacff;
+    color: #563556;
     margin-bottom: 0;
     text-align: right
 }
@@ -4148,7 +4148,7 @@ textarea.contact-form {
 
 .blog-detail .blog-text .title {
     font-weight: 900;
-    color: #34495e;
+    color: #664966;
     font-size: 2.143em;
     margin-bottom: 30px
 }
@@ -4179,7 +4179,7 @@ textarea.contact-form {
 }
 
 .blog-detail .blog-text .fa-check {
-    color: #2aacff
+    color: #563556
 }
 
 .blog-detail .blog-text .bold {
@@ -4187,12 +4187,12 @@ textarea.contact-form {
 }
 
 .blog-detail .blog-text .highlight {
-    color: #2aacff;
+    color: #563556;
     font-weight: 700
 }
 
 .blog-detail .blog-text .quote {
-    color: #2aacff;
+    color: #563556;
     font-weight: 500;
     font-size: 2.43em;
     line-height: 1.1
@@ -4200,7 +4200,7 @@ textarea.contact-form {
 
 .blog-detail .blog-text .share-post {
     font-weight: 700;
-    color: #34495e;
+    color: #664966;
     font-size: 1.286em;
     text-transform: uppercase;
     line-height: 1;
@@ -4257,7 +4257,7 @@ textarea.contact-form {
 }
 
 .blog-detail .blog-text .tag-post .link:hover {
-    color: #2aacff
+    color: #563556
 }
 
 .blog-detail .blog-comment-title {
@@ -4312,7 +4312,7 @@ textarea.contact-form {
 .blog-detail .blog-comment .comment-list .comment-item .name, .blog-detail .blog-comment .comment-list-children .comment-item .name {
     font-size: 1.071em;
     font-weight: 900;
-    color: #2aacff;
+    color: #563556;
     margin-bottom: 10px
 }
 
@@ -4342,7 +4342,7 @@ textarea.contact-form {
 }
 
 .blog-detail .blog-comment .load-more-comment:hover {
-    color: #2aacff
+    color: #563556
 }
 
 .blog-detail .blog-comment .comment-form {
@@ -4366,7 +4366,7 @@ textarea.contact-form {
 }
 
 .blog-detail .blog-comment .comment-form .btn-blue:hover {
-    background-color: #34495e;
+    background-color: #664966;
     color: #fff
 }
 
@@ -4403,7 +4403,7 @@ textarea.contact-form {
 .blog-author .author .name {
     font-size: 18px;
     font-weight: bold;
-    color: #2aacff
+    color: #563556
 }
 
 .blog-author .position {
@@ -4425,7 +4425,7 @@ textarea.contact-form {
 
 .search-form-widget {
     height: 110px;
-    background-color: #2aacff;
+    background-color: #563556;
     padding: 5px 20px
 }
 
@@ -4504,13 +4504,13 @@ textarea.contact-form {
 }
 
 .pagination li .link-pagination:hover {
-    background-color: #2aacff;
+    background-color: #563556;
     color: #fff
 }
 
 .pagination li.active .link-pagination {
     background-color: transparent;
-    color: #2aacff;
+    color: #563556;
     pointer-events: none
 }
 
@@ -4547,7 +4547,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 }
 
 .agent-list .agent-item .agent-info .agencies-pos:hover i, .agent-list .agent-item .agent-info .agencies-pos:hover a {
-    color: #2aacff
+    color: #563556
 }
 
 .map2 {
@@ -4581,7 +4581,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 .agency-list-content .agency-title {
     font-size: 24px;
     font-weight: 700;
-    color: #34495e;
+    color: #664966;
     margin-bottom: 30px;
     text-align: left
 }
@@ -4611,7 +4611,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 }
 
 .agency-list-content .agency-item .agency-info .agency-pos .link:hover, .agency-list-content .agency-item .agency-info .agency-skype .link:hover {
-    color: #2aacff
+    color: #563556
 }
 
 .agency-list-content .agency-item .agency-info .agency-phone {
@@ -4730,7 +4730,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
     position: absolute;
     width: 40px;
     height: 40px;
-    background-color: #2aacff;
+    background-color: #563556;
     display: table;
     text-align: center;
     z-index: 2;
@@ -4754,7 +4754,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 }
 
 .user-info .user-title {
-    color: #34495e;
+    color: #664966;
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 600;
@@ -4776,7 +4776,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 }
 
 .user-info .text:hover {
-    color: #2aacff
+    color: #563556
 }
 
 .user-info .user-on {
@@ -4866,7 +4866,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 }
 
 .btn.btn-transparent.green-color:hover {
-    border-color: #2aacff
+    border-color: #563556
 }
 
 .search-properties .group-button-search .more-filter .green-color, .search-properties .group-button-search .more-filter .green-color, .search-properties .group-button-search .more-filter .green-color {
@@ -4878,7 +4878,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 }
 
 .submit-properties-wrapper .title-submit {
-    color: #34495e;
+    color: #664966;
     font-size: 16px;
     font-weight: 700
 }
@@ -5016,7 +5016,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 }
 
 .pricing-description .title {
-    color: #34495e;
+    color: #664966;
     font-size: 1.43em;
     font-weight: 700;
     text-transform: capitalize;
@@ -5041,7 +5041,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 }
 
 .pricing-description .price-for-user .price {
-    color: #34495e;
+    color: #664966;
     webkit-transition: all 0.5s ease;
     transition: all 0.5s ease
 }
@@ -5066,7 +5066,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 }
 
 .pricing-description .get-start .btn.btn-gray {
-    color: #34495e;
+    color: #664966;
     background-color: #eeefef;
     border: 2px solid #eeefef;
     line-height: 40px;
@@ -5075,20 +5075,20 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 }
 
 .pricing-description:hover {
-    background-color: #2aacff;
+    background-color: #563556;
     color: #fff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.15)
 }
 
 .pricing-description:hover .btn.btn-gray {
     border: 2px solid #fff;
-    background-color: #2aacff;
+    background-color: #563556;
     color: #fff
 }
 
 .pricing-description:hover .btn.btn-gray:hover {
     background-color: #fff;
-    color: #2aacff
+    color: #563556
 }
 
 .pricing-description:hover .title, .pricing-description:hover .text, .pricing-description:hover .price-for-user {
@@ -5135,14 +5135,14 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 .signup-register .signup-register-table .title {
     font-weight: 900;
     font-size: 1.714em;
-    color: #34495e;
+    color: #664966;
     margin: 30px;
     line-height: 30px;
     text-transform: uppercase
 }
 
 .signup-register .signup-register-table .title .link {
-    color: #2aacff
+    color: #563556
 }
 
 .signup-register .signup-register-table form label {
@@ -5172,7 +5172,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 
 .signup-register .signup-register-table .btn {
     margin-top: 10px;
-    border: 2px solid #2aacff
+    border: 2px solid #563556
 }
 
 .signup-register .signup-register-table .btn-signup {
@@ -5189,7 +5189,7 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
 .signup-register .signup-register-table .title-sign-in .signin {
     margin-left: 10px;
     text-transform: uppercase;
-    color: #2aacff
+    color: #563556
 }
 
 .signup-register .form-register .col-md-6 {
