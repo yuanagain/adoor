@@ -18,6 +18,10 @@
 - `#b2b2b2`
 - `#c1c1c1`
 
+
+### Dark Grey
+- `#474747`
+
 ## Content Snippets
 
 ### Welcome Home

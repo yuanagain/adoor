@@ -3,7 +3,7 @@
     // Data for the markers consisting of a name, a LatLng and a zIndex for the
     // order in which these markers should display on top of each other.
     var beaches = [
-        ['Bondi Beach', -33.9, 151.151, 1]
+        ['aDoor Properties', 30.472117, -87.210929, 1]
     ];
 
     function setMarkers(map) {
@@ -246,8 +246,8 @@
         setMarkers(map);
 
         map.setCenter({
-            lat: -33.9,
-            lng: 151.151
+            lat: 30.472117, 
+            lng: -87.210929
         });
 
         map.mapTypes.set('map_style', styledMap);
