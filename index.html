@@ -82,7 +82,7 @@
     <div class="main-content"><!-- CONTENT-->
       <div class="content">
         <div class="section">
-          <div class="banner-01 banner-full-screen-2"></div>
+          <div id="zoomingbg" class="banner-01 banner-full-screen-2 "></div>
         </div>
         <div class="section">
           <div class="about-house-section padding-top padding-bottom">
@@ -828,6 +828,23 @@
 <script src="assets/libs/parallax/jquery.data-parallax.min.js"></script>
 <script src="assets/libs/slick/slick.min.js"></script>
 <!-- MAIN JS-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+<script type="text/javascript">
+  var $zoomingbg = $('#zoomingbg');
+
+  TweenLite.fromTo($zoomingbg, 3, 
+    { backgroundSize: "150%" }, 
+    { backgroundSize: "100%",  ease:Power4.easeOutIn}
+  );
+
+  // TweenLite.fromTo($zoomingbg, 10, 
+  //   { backgroundPosition: "50% -100px" }, 
+  //   { backgroundPosition: "50% -200px",  ease:Power4.easeOutIn}
+  // );
+
+
+</script>
 <script src="assets/js/main.js"></script>
 <!-- LOADING SCRIPTS FOR PAGE--></body>
 </html>
