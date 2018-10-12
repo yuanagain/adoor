@@ -1,7 +1,7 @@
 /*!
  * fitColumns layout mode for Isotope
  * v1.1.2
- * http://isotope.metafizzy.co/layout-modes/fitcolumns.html
+ * https://isotope.metafizzy.co/layout-modes/fitcolumns.html
  */
 
 /*jshint browser: true, devel: false, strict: true, undef: true, unused: true */
