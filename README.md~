@@ -61,3 +61,4 @@ A proud Floridian, Shelby is the latest addition to the aDoor family. A graduate
 ## Links
 - Feature listings API call: https://developers.idxbroker.com/lesson/featured-listings-map/
 - API call intro: https://developers.idxbroker.com/lesson/making-your-first-api-call/
+- SimplyRETS: https://simplyrets.com/blog/getting-set-up.html
