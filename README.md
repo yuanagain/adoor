@@ -63,3 +63,6 @@ A proud Floridian, Shelby is the latest addition to the aDoor family. A graduate
 - API call intro: https://developers.idxbroker.com/lesson/making-your-first-api-call/
 - SimplyRETS: https://simplyrets.com/blog/getting-set-up.html
 - SimplyRETS, getProperties: https://docs.simplyrets.com/api/index.html#!/default/get_properties
+- NPM RETS client: https://www.npmjs.com/package/rets-client
+- Node RETS client: https://github.com/sbruno81/rets-client
+- libRETS Docker image: https://github.com/NationalAssociationOfRealtors/libRETS
