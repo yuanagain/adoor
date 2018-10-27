@@ -14,7 +14,7 @@ const header_tail = `
     </div>
     <nav class="navigation collapse navbar-collapse pull-right">
       <ul class="nav-links nav navbar-nav">
-        <li><a href="contact.html" class="main-menu">Home</a></li>
+        <li><a href="index.html" class="main-menu">Home</a></li>
 
         <li class="dropdown"><a href="javascript:void(0)" class="main-menu">Team<span class="fa fa-angle-down icons-dropdown"></span></a>
           <ul class="dropdown-menu dropdown-menu-1">
