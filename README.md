@@ -66,3 +66,5 @@ A proud Floridian, Shelby is the latest addition to the aDoor family. A graduate
 - NPM RETS client: https://www.npmjs.com/package/rets-client
 - Node RETS client: https://github.com/sbruno81/rets-client
 - libRETS Docker image: https://github.com/NationalAssociationOfRealtors/libRETS
+- RETS client, Python: https://github.com/refindlyllc/rets
+- libRETS buildback for Heroku: https://elements.heroku.com/buildpacks/trelora/buildpack-librets
