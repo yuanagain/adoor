@@ -296,8 +296,8 @@
 
     .pricing-table-wrapper .owl-controls .owl-prev:hover, .pricing-table-wrapper .owl-controls .owl-next:hover {
         background-color: #fff;
-        color: #563556;
-        border-color: #563556
+        color: rgba(94, 106, 113, 1);
+        border-color: rgba(94, 106, 113, 1)
     }
 
     .pricing-table-wrapper .owl-controls .owl-prev {
@@ -908,14 +908,14 @@
 
     .header-main .dropdown-menu-1 {
         padding: 0 20px 0 20px;
-        border-bottom: 1px solid #563556
+        border-bottom: 1px solid rgba(94, 106, 113, 1)
     }
 
     .header-main .dropdown-menu-2 {
         background-color: #fff;
         border-bottom: none;
         padding-right: 30px;
-        border-top: 1px solid #563556
+        border-top: 1px solid rgba(94, 106, 113, 1)
     }
 
     .header-main .dropdown-menu-2 > li > .link-page {
@@ -970,12 +970,12 @@
     }
 
     header .bg-transparent .header-main .navigation .nav-links li.active .main-menu, header .bg-transparent .header-main .navigation .nav-links li:hover .main-menu {
-        color: #563556
+        color: rgba(94, 106, 113, 1)
     }
 
     header .bg-transparent .header-main.header-fixed .navbar-toggle {
-        border: 1px solid #563556;
-        background-color: #563556
+        border: 1px solid rgba(94, 106, 113, 1);
+        background-color: rgba(94, 106, 113, 1)
     }
 
     header .bg-transparent .header-main.header-style2.header-fixed .logo-black {
@@ -991,8 +991,8 @@
     }
 
     header .bg-white .header-main .navbar-toggle {
-        border: 1px solid #563556;
-        background-color: #563556
+        border: 1px solid rgba(94, 106, 113, 1);
+        background-color: rgba(94, 106, 113, 1)
     }
 
     header .bg-white .header-main .navigation .nav-links li .main-menu {
@@ -1000,7 +1000,7 @@
     }
 
     header .bg-white .header-main .navigation .nav-links li.active .main-menu, header .bg-white .header-main .navigation .nav-links li:hover .main-menu {
-        color: #563556
+        color: rgba(94, 106, 113, 1)
     }
 
     .banner-03 .banner-03-wrapper {
@@ -1126,8 +1126,8 @@
     }
 
     .gallery-nav .btn-primary {
-        background-color: #563556;
-        border-color: #563556;
+        background-color: rgba(94, 106, 113, 1);
+        border-color: rgba(94, 106, 113, 1);
         position: relative;
         text-align: left;
         padding: 15px;
@@ -1136,8 +1136,8 @@
     }
 
     .gallery-nav .btn-primary:focus, .gallery-nav .btn-primary:hover {
-        background-color: #563556;
-        border-color: #563556
+        background-color: rgba(94, 106, 113, 1);
+        border-color: rgba(94, 106, 113, 1)
     }
 
     .gallery-nav .btn-primary > i {

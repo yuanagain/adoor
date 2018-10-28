@@ -12,7 +12,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
-    color: #664966;
+    color: rgba(94, 106, 113, 1);
     background-color: #fff
 }
 
@@ -26,7 +26,7 @@ a {
 
 a:hover, a:active, a:focus {
     text-decoration: none;
-    color: #563556
+    color: rgba(94, 106, 113, 1)
 }
 
 h1, h2, h3, h4 {
@@ -128,11 +128,11 @@ h5 {
 }
 
 .sunhouse-item .note.for-sale {
-    background-color: #563556
+    background-color: rgba(94, 106, 113, 1)
 }
 
 .sunhouse-item .note.for-rent {
-    background-color: #887188
+    background-color: rgba(94, 106, 113, 1)
 }
 
 .sunhouse-item .note.for-day {
@@ -160,7 +160,7 @@ h5 {
 }
 
 .sunhouse-item .about-house .title {
-    color: #664966;
+    color: rgba(94, 106, 113, 1);
     font-size: 1.43em;
     font-weight: 700;
     text-transform: capitalize;
@@ -169,7 +169,7 @@ h5 {
 }
 
 .sunhouse-item .about-house .title:hover {
-    color: #563556
+    color: rgba(94, 106, 113, 1)
 }
 
 .sunhouse-item .about-house .text {
@@ -202,7 +202,7 @@ h5 {
 }
 
 .sunhouse-item .more-info-house .place-house:hover i, .sunhouse-item .more-info-house .place-house:hover p, .sunhouse-item .more-info-house .place-house:hover a {
-    color: #563556
+    color: rgba(94, 106, 113, 1)
 }
 
 .sunhouse-item .more-info-house .price {
@@ -210,7 +210,7 @@ h5 {
     vertical-align: middle;
     text-align: right;
     font-size: 1.714em;
-    color: #563556;
+    color: rgba(94, 106, 113, 1);
     font-weight: 700;
     min-width: 120px
 }
@@ -387,7 +387,7 @@ h5 {
     background-repeat: repeat;
     width: 100%;
     position: relative;
-    background-color: #563556
+    background-color: rgba(94, 106, 113, 1)
 }
 
 .banner-02 {
@@ -403,7 +403,7 @@ h5 {
 }
 
 .banner-02.bg-overlay:before {
-    background-color: rgba(86,53,86, 0.4)
+    background-color: rgba(94, 106, 113, 0.4)
 }
 
 .banner-03 {
@@ -419,7 +419,7 @@ h5 {
 }
 
 .banner-03.bg-overlay:before {
-    background-color: rgba(86,53,86, 0.1)
+    background-color: rgba(94, 106, 113, 0.1)
 }
 
 .find-best-house {
@@ -467,7 +467,7 @@ header .socials .link {
 
 header .socials .link:hover {
     background-color: #f9fbfb;
-    color: #563556 !important
+    color: rgba(94, 106, 113, 1) !important
 }
 
 header .socials .link:last-child {
@@ -497,7 +497,7 @@ header .bg-white .header-main {
 }
 
 header .bg-white .header-main .main-menu {
-    color: #664966
+    color: rgba(94, 106, 113, 1)
 }
 
 header .bg-white .socials .link {
@@ -548,15 +548,15 @@ header .bg-transparent .header-main .navigation .nav-links li.active .main-menu,
 
 header .bg-transparent .header-main.header-fixed {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #664966
+    background-color: rgba(94, 106, 113, 1)
 }
 
 header .bg-transparent .header-main.header-fixed .main-menu {
-    color: #664966
+    color: rgba(94, 106, 113, 1)
 }
 
 header .bg-transparent .header-main.header-fixed .navigation .nav-links li.active .main-menu, header .bg-transparent .header-main.header-fixed .navigation .nav-links li:hover .main-menu {
-    color: #563556
+    color: rgba(94, 106, 113, 1)
 }
 
 header .bg-transparent .header-main.header-fixed .logo-black {
@@ -605,11 +605,11 @@ header .bg-transparent .dropdown-language li {
 }
 
 header .bg-transparent .dropdown-language li a {
-    color: #664966
+    color: rgba(94, 106, 113, 1)
 }
 
 header .bg-transparent .dropdown-language li:hover a {
-    color: #664966
+    color: rgba(94, 106, 113, 1)
 }
 
 .header-topbar {
@@ -626,7 +626,7 @@ header .bg-transparent .dropdown-language li:hover a {
 }
 
 .header-topbar a:hover, .header-topbar span:hover, .header-topbar p:hover {
-    color: #563556
+    color: rgba(94, 106, 113, 1)
 }
 
 .header-topbar .topbar-left {
@@ -660,7 +660,7 @@ header .bg-transparent .dropdown-language li:hover a {
 }
 
 .header-topbar .topbar-left > li:hover i, .header-topbar .topbar-left > li:hover span {
-    color: #563556
+    color: rgba(94, 106, 113, 1)
 }
 
 .dropdown-language {
@@ -691,7 +691,7 @@ header .bg-transparent .dropdown-language li:hover a {
 }
 
 .dropdown-language li:hover a {
-    color: #664966
+    color: rgba(94, 106, 113, 1)
 }
 
 .header-main {
@@ -717,7 +717,7 @@ header .bg-transparent .dropdown-language li:hover a {
 }
 
 .header-main .navigation .nav-links li.active .main-menu, .header-main .navigation .nav-links li:hover .main-menu {
-    color: #563556
+    color: rgba(94, 106, 113, 1)
 }
 
 .header-main .navigation .nav-links .main-menu {
@@ -742,7 +742,7 @@ header .bg-transparent .dropdown-language li:hover a {
     -moz-border-radius: 0;
     border: none;
     padding: 0;
-    border-bottom: 2px solid #563556;
+    border-bottom: 2px solid rgba(94, 106, 113, 1);
     transition: all 0.6s ease
 }
 
@@ -952,7 +952,7 @@ footer .bg-dark a, footer .bg-dark p, footer .bg-dark span, footer .bg-dark i {
 }
 
 footer .bg-dark a:hover {
-    color: #563556
+    color: rgba(94, 106, 113, 1)
 }
 
 footer .bg-dark .footer-logo-white {
@@ -985,7 +985,7 @@ footer .bg-transparent .footer-main {
 }
 
 footer .bg-transparent .title-widget {
-    color: #664966;
+    color: rgba(94, 106, 113, 1);
     border-bottom: none
 }
 
@@ -998,7 +998,7 @@ footer .bg-transparent a, footer .bg-transparent p, footer .bg-transparent span,
 }
 
 footer .bg-transparent a:hover {
-    color: #563556
+    color: rgba(94, 106, 113, 1)
 }
 
 footer .bg-transparent .socials a {
@@ -1006,8 +1006,8 @@ footer .bg-transparent .socials a {
 }
 
 footer .bg-transparent .socials a:hover {
-    background-color: #563556;
-    border-color: #563556
+    background-color: rgba(94, 106, 113, 1);
+    border-color: rgba(94, 106, 113, 1)
 }
 
 footer .bg-transparent .socials a:hover i {
@@ -1051,7 +1051,7 @@ footer .bg-transparent .socials a:hover i {
 }
 
 .hyperlink .hyper-left .link:hover, .hyperlink .hyper-right .link:hover {
-    color: #563556
+    color: rgba(94, 106, 113, 1)
 }
 
 .hyperlink .hyper-left span {
