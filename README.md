@@ -1,5 +1,10 @@
 # aDoor Properties Website Build
 
+## Local server
+```
+python -m SimpleHTTPServer 9000
+```
+
 ## Color Palette
 ### Purples
 - `rgba(94, 106, 113, 1)`

@@ -1,0 +1,109 @@
+[
+	{
+		"fullname": "Typer Cashin",
+		"position": "Senior Builder",
+		"shortbio": "",
+		"thumbnail": "assets/images/grc/cashin.jpeg",
+		"phone": "850-637-1880",
+		"email": "info@adoorproperties.com",
+		"team": "builders",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		},
+		"id": "cashin"
+	},
+	{
+		"fullname": "Tori Davis",
+		"position": "Director of Marketing",
+		"shortbio": "",
+		"thumbnail": "assets/images/grc/davis.jpg",
+		"phone": "850-637-1880",
+		"email": "info@adoorproperties.com",
+		"team": "marketing",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		},
+		"id": "davis"
+	},
+	{
+		"fullname": "Austin Tenpenny",
+		"position": "Director of Constuction",
+		"shortbio": "A proud Tennessee gentleman, Austin discovered Pensacola by a chance step in his early career which has blossomed into an early reputation of impeccable build quality and customer service. Earnest and meticulous as he is, Austin is still remarkably noted for helping residents feel at home long after they've moved in, a testament to the ethic and craft he brings to every development.",
+		"thumbnail": "assets/images/grc/tenpenny.jpeg",
+		"phone": "850-637-1880",
+		"email": "info@adoorproperties.com",
+		"team": "builders",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		},
+		"teamid": "builders",
+		"id": "tenpenny"
+	},
+	{
+		"fullname": "Shelby Smith",
+		"position": "Associate Agent",
+		"shortbio": "A proud Floridian, Shelby is the latest addition to the aDoor family. A graduate of Pensacola's very own University of West Florida, Shelby has walked the unique journey of a student maturing into a professional, all while in appreciation of all that Pensacola has to offer.",
+		"thumbnail": "assets/images/grc/smith.jpg",
+		"phone": "850-637-1880",
+		"email": "info@adoorproperties.com",
+		"team": "agents",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		},
+		"id": "smith"
+	},
+	{
+		"fullname": "Steven Sebold",
+		"position": "Designer + Agent",
+		"shortbio": "Steven combines his cosmopolitan sensibilities with his beach town lifestyle to develop beautiful spaces for his clients. A craftman in his own right, Steven works tirelessly with agents, builders, and clients to turn a house into a place its new owners can proudly call home.",
+		"thumbnail": "assets/images/grc/sebold.jpg",
+		"phone": "850-637-1880",
+		"email": "info@adoorproperties.com",
+		"team": "designers",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		},
+		"teamid": "designers",
+		"id": "sebold"
+	},
+	{
+		"fullname": "Meghan Gilroy",
+		"position": "Senior Agent",
+		"shortbio": "A Pensacola native, Meghan began her career as a professional volleyball player, competing on an international stage before discovering new teammates in real estate. As a new mother and also a passionate athlete, Meghan is uniquely equipped to help families and aspirants discover the perfect place to make call home.",
+		"thumbnail": "assets/images/grc/triolo.jpg",
+		"phone": "850-637-1880",
+		"email": "info@adoorproperties.com",
+		"team": "agents",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		},
+		"id": "gilroy"
+	},
+	{
+		"fullname": "Kacee Bidnick",
+		"position": "Senior Agent",
+		"shortbio": "Originally from Los Angeles, California, Kacee began her career in real estate in our very own Pensacola and boasts extensive experience working with a wide range of clients with endless varieties of needs and goals. From her commitments to her clients to her diligence from start to finish, Kacee's young stardom is well-deserved.",
+		"thumbnail": "assets/images/grc/bidnick.jpg",
+		"phone": "850-637-1880",
+		"email": "info@adoorproperties.com",
+		"team": "agents",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		},
+		"id": "bidnick"
+	},
+	{
+		"fullname": "Salvatore Triolo",
+		"position": "Senior Agent",
+		"shortbio": "Hailing from Reggio di Calabria, Salvatore is aDoor's resident globetrotter, and that he has settled on Pensacola is an affirmation of our community's timeless beauty and hospitality.",
+		"thumbnail": "assets/images/grc/salva.jpg",
+		"phone": "850-637-1880",
+		"email": "info@adoorproperties.com",
+		"team": "agents",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		},
+		"teamid": "agents",
+		"id": "triolo"
+	}
+]

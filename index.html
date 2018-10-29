@@ -43,6 +43,7 @@
   </script>
 
   <!-- LOADING SCRIPTS FOR PAGE-->
+  <script src="assets/libs/jquery/jquery-2.1.4.min.js"></script>
   <script src="assets/js/grc/footer.js"></script>
   <script src="assets/js/grc/header.js"></script>
   
@@ -471,64 +472,42 @@
                     <!-- <img src="assets/images/grc/group.jpeg" alt="" class="img-responsive"/> --><!--.icon-title--><!--   i.icon-house_window--></div>
                   <h2 class="main-title">Our Team</h2>
 
-                  <p class="sub-title">Ever worry about coordinating your designer, builder, broker, and agent? Worry no more. We're all on the same team to make your home yours.</p></div>
-                <div class="our-agents-content">
-                  <div class="our-agent-item">
-                    <div class="item-wrapper">
-                      <div class="our-agent-avatar"><img src="assets/images/grc/salva.jpg" alt="" class="img-responsive"/></div>
-                      <div class="our-agent-socials"><a href="#" class="link facebook"><i class="fa fa-facebook"></i></a><a href="#" class="link twitter"><i class="fa fa-twitter"></i></a><a href="#" class="link instagram"><i class="fa fa-instagram"></i></a></div>
+                  <p class="sub-title">Ever worry about coordinating your designer, builder, broker, and agent? Worry no more. We're all on the same team to make your home yours.</p>
+                </div>
+                <div class="our-agents-content peoplecarousel">
+                  
+                  <script id="personsq" type="template">
+                    <div class="our-agent-item">
+                      <div class="item-wrapper">
+                        <div class="our-agent-avatar"><img src="{{thumbnail}}" alt="" class="img-responsive"/></div>
+                        <div class="our-agent-socials"><a href="#" class="link facebook"><i class="fa fa-facebook"></i></a><a href="#" class="link twitter"><i class="fa fa-twitter"></i></a><a href="#" class="link google"><i class="fa fa-google-plus"></i></a><a href="#" class="link instagram"><i class="fa fa-instagram"></i></a></div>
+                      </div>
+                      <div class="our-agent-info"><a href="team.html#{{id}}" class="name">{{fullname}}</a>
+
+                        <p class="job">{{position}}</p></div>
                     </div>
-                    <div class="our-agent-info"><a href="team.html#triolo" class="name">Salvatore Triolo</a>
+                  </script> 
 
-                      <p class="job">Senior Agent</p></div>
-                  </div>
-                  <div class="our-agent-item">
-                    <div class="item-wrapper">
-                      <div class="our-agent-avatar"><img src="assets/images/grc/bidnick.jpg" alt="" class="img-responsive"/></div>
-                      <div class="our-agent-socials"><a href="#" class="link facebook"><i class="fa fa-facebook"></i></a><a href="#" class="link twitter"><i class="fa fa-twitter"></i></a><a href="#" class="link instagram"><i class="fa fa-instagram"></i></a></div>
-                    </div>
-                    <div class="our-agent-info"><a href="team.html#bidnick" class="name">Kacee Bidnick</a>
+                  <script>
+                     $(function() {
+                        jQuery.getJSON("assets/js/grc/people.json", function( data ) {
+                        });
+                        // set template
+                        $.ajax({
+                          url: "assets/js/grc/people.json",
+                          success: function(content) {
 
-                      <p class="job">Senior Agent</p></div>
-                  </div>
-                  <div class="our-agent-item">
-                    <div class="item-wrapper">
-                      <div class="our-agent-avatar"><img src="assets/images/grc/triolo.jpg" alt="" class="img-responsive"/></div>
-                      <div class="our-agent-socials"><a href="#" class="link facebook"><i class="fa fa-facebook"></i></a><a href="#" class="link twitter"><i class="fa fa-twitter"></i></a><a href="#" class="link instagram"><i class="fa fa-instagram"></i></a></div>
-                    </div>
-                    <div class="our-agent-info"><a href="team.html#gilroy" class="name">Meghan Gilroy</a>
-
-                      <p class="job">Senior Agent</p></div>
-                  </div>
-                  <div class="our-agent-item">
-                    <div class="item-wrapper">
-                      <div class="our-agent-avatar"><img src="assets/images/grc/tenpenny.jpeg" alt="" class="img-responsive"/></div>
-                      <div class="our-agent-socials"></div>
-                    </div>
-                    <div class="our-agent-info"><a href="team.html#tenpenny" class="name">Austin Tenpenny</a>
-
-                      <p class="job">Head of Construction</p></div>
-                  </div>
-
-                  <div class="our-agent-item">
-                    <div class="item-wrapper">
-                      <div class="our-agent-avatar"><img src="assets/images/grc/sebold.jpg" alt="" class="img-responsive"/></div>
-                      <div class="our-agent-socials"><a href="#" class="link facebook"><i class="fa fa-facebook"></i></a><a href="#" class="link twitter"><i class="fa fa-twitter"></i></a><a href="#" class="link instagram"><i class="fa fa-instagram"></i></a></div>
-                    </div>
-                    <div class="our-agent-info"><a href="team.html#sebold" class="name">Steven Sebold</a>
-
-                      <p class="job">Agent + Designer</p></div>
-                  </div>
-
-                  <div class="our-agent-item">
-                    <div class="item-wrapper">
-                      <div class="our-agent-avatar"><img src="assets/images/grc/smith.jpg" alt="" class="img-responsive"/></div>
-                      <div class="our-agent-socials"><a href="#" class="link facebook"><i class="fa fa-facebook"></i></a><a href="#" class="link twitter"><i class="fa fa-twitter"></i></a><a href="#" class="link google"><i class="fa fa-google-plus"></i></a><a href="#" class="link instagram"><i class="fa fa-instagram"></i></a></div>
-                    </div>
-                    <div class="our-agent-info"><a href="team.html#smith" class="name">Shelby Smith</a>
-
-                      <p class="job">Associate Agent</p></div>
-                  </div>
+                            var temp = $.trim($('#personsq').html())
+                            $.each(content, function(index, person) {
+                                var x = temp.replace(/{{fullname}}/ig, person.fullname).replace(/{{description}}/ig, person.shortbio).replace(/{{thumbnail}}/ig, person.thumbnail).replace(/{{position}}/ig, person.position).replace(/{{linkedin}}/ig, person.links.linkedin).replace(/{{phone}}/ig, person.phone).replace(/{{email}}/ig, person.email).replace(/{{id}}/ig, person.id).replace(/{{teamid}}/ig, person.teamid);
+                                $('.peoplecarousel').prepend(x);
+                              });
+                            }
+                          })
+                        // loop over people
+                     });
+                  </script>
+                  
                 </div>
               </div>
             </div>
@@ -543,9 +522,9 @@
             </div>
             <div class="container">
               <div data-parallax="{&quot;y&quot;:&quot;20%&quot;}" class="banner-sale-off-wrapper">
-                <div class="name-house"><h2 class="title lightpurple">The Junction at West Hill</h2>
+                <div class="name-house"><h2 class="title2 junctionpurple">The Junction at West Hill</h2>
 
-                  <p class="description">Downtown living</p></div>
+                  <p class="description junctionpurple">Downtown living</p></div>
                 <div class="price-house">
                   <div class="price-for-house">
                     <div class="sub-price">Starting at</div>
@@ -689,7 +668,7 @@
 <!-- FOOTER-->
 <footer-grc></footer-grc>
 <!--.body-2.loading<div class="dots-loader"></div>--><!-- JAVASCRIPT LIBS-->
-<script src="assets/libs/jquery/jquery-2.1.4.min.js"></script>
+
 <script src="assets/libs/detect/browser.js"></script>
 <script src="assets/libs/moment/js/moment.min.js"></script>
 <script src="assets/libs/bootstrap-3.3.6/js/bootstrap.min.js"></script>
