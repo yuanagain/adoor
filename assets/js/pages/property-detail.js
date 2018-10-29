@@ -1,7 +1,7 @@
 (function($) {
     "use strict";
-
     // fixed nav bar scroll
+    console.log("property detail")
     $(function() {
         var nav_locate = $('.nav-bar').offset(),
             on_top = $('.property-detail').offset();
@@ -72,21 +72,21 @@
         });
 
         // var gallery
-        $('.gallery-slider').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            fade: true,
-            asNavFor: '.gallery-nav'
-        });
-        $('.slider-nav-wrapper').slick({
-            slidesToShow: 4,
-            slidesToScroll: 4,
-            asNavFor: '.gallery-slider',
-            centerMode: true,
-            infinite: true,
-            focusOnSelect: true
-        });
+        // $('.gallery-slider').slick({
+        //     slidesToShow: 1,
+        //     slidesToScroll: 1,
+        //     arrows: false,
+        //     fade: true,
+        //     asNavFor: '.gallery-nav'
+        // });
+        // $('.slider-nav-wrapper').slick({
+        //     slidesToShow: 4,
+        //     slidesToScroll: 4,
+        //     asNavFor: '.gallery-slider',
+        //     centerMode: true,
+        //     infinite: true,
+        //     focusOnSelect: true
+        // });
     });
 
 })(jQuery);

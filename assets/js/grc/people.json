@@ -6,11 +6,14 @@
 		"thumbnail": "assets/images/grc/cashin.jpeg",
 		"phone": "850-637-1880",
 		"email": "info@adoorproperties.com",
+		"emailprefix": "t.cashin",
 		"team": "builders",
 		"links": {
 			"linkedin": "https://www.linkedin.com/in/yuanagain/"
 		},
-		"id": "cashin"
+		"id": "cashin",
+		"backgroundimg": "assets/images/grc/IMG_3774.JPG",
+		"backdrop": "assets/images/grc/IMG_3728.JPG"
 	},
 	{
 		"fullname": "Tori Davis",
@@ -19,11 +22,14 @@
 		"thumbnail": "assets/images/grc/davis.jpg",
 		"phone": "850-637-1880",
 		"email": "info@adoorproperties.com",
+		"emailprefix": "t.davis",
 		"team": "marketing",
 		"links": {
 			"linkedin": "https://www.linkedin.com/in/yuanagain/"
 		},
-		"id": "davis"
+		"id": "davis",
+		"backgroundimg": "assets/images/grc/IMG_3774.JPG",
+		"backdrop": "assets/images/grc/IMG_3728.JPG"
 	},
 	{
 		"fullname": "Austin Tenpenny",
@@ -32,12 +38,15 @@
 		"thumbnail": "assets/images/grc/tenpenny.jpeg",
 		"phone": "850-637-1880",
 		"email": "info@adoorproperties.com",
+		"emailprefix": "a.tenpenny",
 		"team": "builders",
 		"links": {
 			"linkedin": "https://www.linkedin.com/in/yuanagain/"
 		},
 		"teamid": "builders",
-		"id": "tenpenny"
+		"id": "tenpenny",
+		"backgroundimg": "assets/images/grc/IMG_3774.JPG",
+		"backdrop": "assets/images/grc/IMG_3728.JPG"
 	},
 	{
 		"fullname": "Shelby Smith",
@@ -46,11 +55,14 @@
 		"thumbnail": "assets/images/grc/smith.jpg",
 		"phone": "850-637-1880",
 		"email": "info@adoorproperties.com",
+		"emailprefix": "s.smith",
 		"team": "agents",
 		"links": {
 			"linkedin": "https://www.linkedin.com/in/yuanagain/"
 		},
-		"id": "smith"
+		"id": "smith",
+		"backgroundimg": "assets/images/grc/IMG_3774.JPG",
+		"backdrop": "assets/images/grc/IMG_3728.JPG"
 	},
 	{
 		"fullname": "Steven Sebold",
@@ -59,12 +71,15 @@
 		"thumbnail": "assets/images/grc/sebold.jpg",
 		"phone": "850-637-1880",
 		"email": "info@adoorproperties.com",
+		"emailprefix": "s.sebold",
 		"team": "designers",
 		"links": {
 			"linkedin": "https://www.linkedin.com/in/yuanagain/"
 		},
 		"teamid": "designers",
-		"id": "sebold"
+		"id": "sebold",
+		"backgroundimg": "assets/images/grc/IMG_3774.JPG",
+		"backdrop": "assets/images/grc/IMG_3728.JPG"
 	},
 	{
 		"fullname": "Meghan Gilroy",
@@ -73,11 +88,14 @@
 		"thumbnail": "assets/images/grc/triolo.jpg",
 		"phone": "850-637-1880",
 		"email": "info@adoorproperties.com",
+		"emailprefix": "m.gilroy",
 		"team": "agents",
 		"links": {
 			"linkedin": "https://www.linkedin.com/in/yuanagain/"
 		},
-		"id": "gilroy"
+		"id": "gilroy",
+		"backgroundimg": "assets/images/grc/IMG_3774.JPG",
+		"backdrop": "assets/images/grc/IMG_3728.JPG"
 	},
 	{
 		"fullname": "Kacee Bidnick",
@@ -86,11 +104,14 @@
 		"thumbnail": "assets/images/grc/bidnick.jpg",
 		"phone": "850-637-1880",
 		"email": "info@adoorproperties.com",
+		"emailprefix": "k.bidnick",
 		"team": "agents",
 		"links": {
 			"linkedin": "https://www.linkedin.com/in/yuanagain/"
 		},
-		"id": "bidnick"
+		"id": "bidnick",
+		"backgroundimg": "assets/images/grc/IMG_3774.JPG",
+		"backdrop": "assets/images/grc/IMG_3728.JPG"
 	},
 	{
 		"fullname": "Salvatore Triolo",
@@ -99,11 +120,14 @@
 		"thumbnail": "assets/images/grc/salva.jpg",
 		"phone": "850-637-1880",
 		"email": "info@adoorproperties.com",
+		"emailprefix": "s.triolo",
 		"team": "agents",
 		"links": {
 			"linkedin": "https://www.linkedin.com/in/yuanagain/"
 		},
 		"teamid": "agents",
-		"id": "triolo"
+		"id": "triolo",
+		"backgroundimg": "assets/images/grc/IMG_3774.JPG",
+		"backdrop": "assets/images/grc/IMG_3728.JPG"
 	}
 ]

@@ -84,19 +84,24 @@
 									<div id="{{teamid}}" class="media agent-item">
 										<div id="{{id}}" class="media-left agent-image"><img src="{{thumbnail}}" alt=""/></div>
 										<div class="media-right agent-info">
-											<div class="col-1"><a href="agent-single.html" class="agent-name">{{fullname}}</a>
+											<div class="col-1"><a href="agent.html?agent={{id}}" class="agent-name">{{fullname}}</a>
 
 												<div class="agent-pos">{{position}}</div>
-												<a href="portfolio.html" class="agent-property"><p class="text">5 properties</p><i class="icon fa fa-angle-right"></i></a></div>
+												<a href="portfolio.html" class="agent-property"><p class="text">See portfolio</p><i class="icon fa fa-angle-right"></i></a></div>
 											<div class="col-2">
 												<div class="agent-phone"><p class="text">{{phone}}</p><i class="icon fa fa-mobile-phone"></i></div>
-												<a href="#" class="agent-skype"><p class="text">{{email}}</p><i class="icon fa fa-globe"></i></a>
+												<a href="mailto:{{email}}" class="agent-skype"><p class="text">@{{emailprefix}}</p><i class="icon fa fa-envelope"></i></a>
 
-												<div class="agent-social"><a href="#"><i class="fa fa-facebook fb"></i></a><a href="#"><i class="fa fa-twitter tw"></i></a><a href="{{linkedin}}"><i class="fa fa-linkedin lin"></i></a></div>
+												<div class="agent-social">
+													<a href="agent.html?agent={{id}}"><i class="fa fa-facebook fb"></i></a>
+
+													<a href="agent.html?agent={{id}}"><i class="fa fa-twitter tw"></i></a>
+
+													<a href="{{linkedin}}"><i class="fa fa-linkedin lin"></i></a></div>
 											</div>
 											<div class="clearfix"></div>
 											<div class="agent-des">{{description}}</div>
-											<a href="agent-single.html" class="more-detail">more detail</a>
+											<a href="agent.html?agent={{id}}" class="more-detail">more detail</a>
 										  </div>
 										</div>
 								</script> 
@@ -111,7 +116,7 @@
 		                    success: function(content) {
 		                      var temp = $.trim($('#personblock').html())
 		                      $.each(content, function(index, person) {
-		                          var x = temp.replace(/{{fullname}}/ig, person.fullname).replace(/{{description}}/ig, person.shortbio).replace(/{{thumbnail}}/ig, person.thumbnail).replace(/{{position}}/ig, person.position).replace(/{{linkedin}}/ig, person.links.linkedin).replace(/{{phone}}/ig, person.phone).replace(/{{email}}/ig, person.email).replace(/{{id}}/ig, person.id).replace(/{{teamid}}/ig, person.teamid);
+		                          var x = temp.replace(/{{fullname}}/ig, person.fullname).replace(/{{description}}/ig, person.shortbio).replace(/{{thumbnail}}/ig, person.thumbnail).replace(/{{position}}/ig, person.position).replace(/{{linkedin}}/ig, person.links.linkedin).replace(/{{phone}}/ig, person.phone).replace(/{{email}}/ig, person.email).replace(/{{id}}/ig, person.id).replace(/{{teamid}}/ig, person.teamid).replace(/{{emailprefix}}/ig, person.emailprefix);
 		                          $('.peoplelisting').prepend(x);
 		                        });
 		                      }

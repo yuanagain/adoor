@@ -1,0 +1,107 @@
+[
+	{
+		"name": "Junction at West Hill",
+		"id": "demo",
+		"beds": 3,
+		"baths": 3,
+		"area": 6000,
+		"thumbnail": "assets/images/houses/house-6.jpg",
+		"location": "Belmont DeVilliers",
+		"price": "315,300",
+		"description": "Downtown living, a dream no longer. One our last remaining units.",
+		"status": "For sale",
+		"propertytype": "Townhome",
+		"address": "1400 Riverside Road, Pensacola",
+		"images": [
+			"assets/images/grc/IMG_3770.JPG",
+			"assets/images/grc/IMG_3771.JPG",
+			"assets/images/grc/IMG_3772.JPG"
+		]
+	},
+	{
+		"name": "Junction at West Hill",
+		"id": "demo2",
+		"beds": 3,
+		"baths": 3,
+		"area": 6000,
+		"thumbnail": "assets/images/houses/house-6.jpg",
+		"location": "Belmont DeVilliers",
+		"price": "315,300",
+		"description": "Downtown living, a dream no longer. One our last remaining units.",
+		"status": "For sale",
+		"propertytype": "Townhome",
+		"address": "1400 Riverside Road, Pensacola",
+		"images": [
+			"assets/images/grc/IMG_3770.JPG",
+			"assets/images/grc/IMG_3771.JPG"
+		]
+	},
+	{
+		"name": "Junction at West Hill",
+		"id": "demo3",
+		"beds": 3,
+		"baths": 3,
+		"area": 6000,
+		"thumbnail": "assets/images/houses/house-6.jpg",
+		"location": "Belmont DeVilliers",
+		"price": "315,300",
+		"description": "Downtown living, a dream no longer. One our last remaining units.",
+		"status": "For sale",
+		"propertytype": "Townhome",
+		"address": "1400 Riverside Road, Pensacola",
+		"images": [
+			"assets/images/grc/IMG_3770.JPG"
+		]
+	},
+	{
+		"name": "Junction at West Hill",
+		"id": "demo4",
+		"beds": 3,
+		"baths": 3,
+		"area": 6000,
+		"thumbnail": "assets/images/houses/house-6.jpg",
+		"location": "Belmont DeVilliers",
+		"price": "315,300",
+		"description": "Downtown living, a dream no longer. One our last remaining units.",
+		"status": "For sale",
+		"propertytype": "Townhome",
+		"address": "1400 Riverside Road, Pensacola",
+		"images": [
+			"assets/images/grc/IMG_3770.JPG"
+		]
+	},
+	{
+		"name": "Junction at West Hill",
+		"id": "demo5",
+		"beds": 3,
+		"baths": 3,
+		"area": 6000,
+		"thumbnail": "assets/images/houses/house-6.jpg",
+		"location": "Belmont DeVilliers",
+		"price": "315,300",
+		"description": "Downtown living, a dream no longer. One our last remaining units.",
+		"status": "For sale",
+		"propertytype": "Townhome",
+		"address": "1400 Riverside Road, Pensacola",
+		"images": [
+			"assets/images/grc/IMG_3770.JPG"
+		]
+	},
+	{
+		"name": "Junction at West Hill",
+		"id": "demo6",
+		"beds": 3,
+		"baths": 3,
+		"area": 6000,
+		"thumbnail": "assets/images/houses/house-6.jpg",
+		"location": "Belmont DeVilliers",
+		"price": "315,300",
+		"description": "Downtown living, a dream no longer. One our last remaining units.",
+		"status": "For sale",
+		"propertytype": "Townhome",
+		"address": "1400 Riverside Road, Pensacola",
+		"images": [
+			"assets/images/grc/IMG_3770.JPG"
+		]
+	}
+]

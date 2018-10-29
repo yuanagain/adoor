@@ -475,14 +475,20 @@
                   <p class="sub-title">Ever worry about coordinating your designer, builder, broker, and agent? Worry no more. We're all on the same team to make your home yours.</p>
                 </div>
                 <div class="our-agents-content peoplecarousel">
-                  
+
                   <script id="personsq" type="template">
                     <div class="our-agent-item">
                       <div class="item-wrapper">
                         <div class="our-agent-avatar"><img src="{{thumbnail}}" alt="" class="img-responsive"/></div>
-                        <div class="our-agent-socials"><a href="#" class="link facebook"><i class="fa fa-facebook"></i></a><a href="#" class="link twitter"><i class="fa fa-twitter"></i></a><a href="#" class="link google"><i class="fa fa-google-plus"></i></a><a href="#" class="link instagram"><i class="fa fa-instagram"></i></a></div>
+                        <div class="our-agent-socials">
+
+                          <a href="#" class="link linkedin"><i class="fa fa-linkedin"></i></a>
+
+                          <a href="mailto:{{email}}" class="link email"><i class="fa fa-envelope"></i></a>
+
+                          <a href="#" class="link instagram"><i class="fa fa-instagram"></i></a></div>
                       </div>
-                      <div class="our-agent-info"><a href="team.html#{{id}}" class="name">{{fullname}}</a>
+                      <div class="our-agent-info"><a href="agent.html?agent={{id}}" class="name">{{fullname}}</a>
 
                         <p class="job">{{position}}</p></div>
                     </div>
@@ -507,7 +513,7 @@
                         // loop over people
                      });
                   </script>
-                  
+
                 </div>
               </div>
             </div>
